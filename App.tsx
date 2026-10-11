@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import { buscarCotacoes, converterResposta } from "./src/api/awesome";
+import { buscarCotacoes } from "./src/api/awesome";
 import { TelaCotacoes } from "./src/telas/TelaCotacoes";
 
 export default function App() {
