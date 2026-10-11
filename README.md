@@ -20,9 +20,12 @@ Feito com **React Native + Expo + TypeScript** e desenvolvido com **TDD** (Test-
 2. Ao abrir o arquivo, o Android vai pedir permissão para **instalar apps desta fonte** (o navegador). Permita.
 3. O Google Play Protect pode avisar que o app é desconhecido, porque ele não vem da Play Store. Isso é esperado.
 
-> **Verificação (opcional):** cada release traz o hash **SHA-256** do APK. Para conferir se o arquivo baixado é o original:
+> **Verificação (opcional):** cada release traz o hash **SHA-256** do APK.
+> Gere o hash do arquivo baixado e compare:
 > ```bash
-> sha256sum cotacoes-v1.0.0.apk
+> sha256sum cotacoes-v1.0.0.apk                    # Linux
+> shasum -a 256 cotacoes-v1.0.0.apk                # macOS
+> certutil -hashfile cotacoes-v1.0.0.apk SHA256    # Windows
 > ```
 
 ## ✨ Funcionalidades
