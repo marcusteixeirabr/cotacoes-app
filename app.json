@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "cotacoes-app",
+    "name": "Cotações",
     "slug": "cotacoes-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,7 +16,8 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "io.github.marcusteixeirabr.cotacoesapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
