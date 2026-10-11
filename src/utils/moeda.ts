@@ -1,8 +1,8 @@
-const formatador = new Intl.NumberFormat('pt-BR', {
-        style: 'currency',
-        currency: 'BRL',
-    });
+const formatadorMoeda = new Intl.NumberFormat("pt-BR", {
+  style: "currency",
+  currency: "BRL",
+});
 
-export function formatarBRL(valor: number): string {
-    return formatador.format(valor);    
-};
+export default function formatarBRL(valor: number): string {
+  return formatadorMoeda.format(valor);
+}

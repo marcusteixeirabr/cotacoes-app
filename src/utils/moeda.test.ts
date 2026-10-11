@@ -1,4 +1,4 @@
-import { formatarBRL } from "./moeda";
+import formatarBRL from "./moeda";
 
 describe("formatarBRL", () => {
   // o Intl usa espaço não separável entre R$ e o número para não quebrar a linha; é o comportamento desejado

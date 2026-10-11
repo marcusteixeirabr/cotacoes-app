@@ -2,7 +2,9 @@
   "name": "cotacoes-app",
   "version": "1.0.0",
   "main": "index.ts",
-  "jest": { "preset": "jest-expo" },
+  "jest": {
+    "preset": "jest-expo"
+  },
   "dependencies": {
     "expo": "~57.0.27",
     "expo-status-bar": "~57.0.1",
@@ -21,8 +23,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "test": "jest",
-    "test:watch": "jest --watch",
+    "test": "TZ=UTC jest",
+    "test:watch": "TZ=UTC jest --watch",
     "typecheck": "tsc --noEmit",
     "check": "npm run typecheck && npm test"
   },
